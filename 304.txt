@@ -1,0 +1,31 @@
+Title:- Ronot controller
+
+Goal of the Project:
+In class 283, we started a Ramp follower Controller. We learned how controllers can simulate the Robot. We learned about the basic robot controller programming using Python language.
+
+
+Story:
+Rohan knows about webots. Even he designed one Robot. But now he is curious to know about how robots control everything. So he decided to work on a robot controller that moves upward or downward the ramp. He wants to program the controller to simulate the Robot movements.
+
+Specific Tasks to complete the Project:
+Create a new controller file.
+Go to wizards
+Click on the new Robot controller, name the file and select the language as Python.
+Save the controller file.
+Add the libraries
+Reference Code:
+
+from controller import Robot
+from controller import Motor
+from controller import Altimeter
+from controller import LED
+import math
+Define a class MyController and define the functions __init__ and run in it.
+Create an object of MyController and start the execution
+Reference Code:
+
+# main Python program
+controller = MyController()
+controller.run()
+Define the variable for Motors, accelerometer and LEDs.
+Set the acceleration for rotational Motors.
